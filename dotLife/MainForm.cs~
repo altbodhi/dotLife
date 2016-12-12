@@ -44,7 +44,7 @@ namespace dotLife
 
 			Graphics g = this.CreateGraphics();
 			g.Clear (SystemColors.Info);
-			for (int i = 0; i < Life.W; i++){
+			for (int i = 0; i <= Life.W; i++){
 
 				g.DrawLine (Pens.Black, 0, i * (this.Height / Life.W),
 					this.Width , i  * (this.Height / Life.W));

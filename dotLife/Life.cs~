@@ -5,7 +5,7 @@ namespace dotLife
 	public class Life
 	{
 		public static int W = 32;
-
+		public static int MAX=100;
 		public int Gen{ get; set; }
 
 		Cell[,] cells = null;
@@ -19,9 +19,18 @@ namespace dotLife
 			Life.W = 100;
 			cells = new Cell[W, W];
 			Gen = 1;
-			for (int i = 0; i < W; i++)
-				for (int j = 0; j < W; j++)
+			int total = 0;
+			for (int i = 0; i < W; i++) {
+				if (total >= MAX)
+					break;
+				for (int j = 0; j < W; j++) {
 					cells [i, j] = new Cell (NextRnd, false);
+					if (cells [i, j].Current)
+						//total++;
+					if (total >= MAX)
+						break;
+				}
+			}
 		}
 
 		bool isBorn (int i, int j)
