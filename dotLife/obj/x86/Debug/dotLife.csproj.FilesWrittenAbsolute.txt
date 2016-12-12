@@ -1,0 +1,5 @@
+/home/sa/projects/dotLife/dotLife/obj/x86/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/sa/projects/dotLife/dotLife/bin/Debug/dotLife.exe.mdb
+/home/sa/projects/dotLife/dotLife/bin/Debug/dotLife.exe
+/home/sa/projects/dotLife/dotLife/obj/x86/Debug/dotLife.exe
+/home/sa/projects/dotLife/dotLife/obj/x86/Debug/dotLife.exe.mdb

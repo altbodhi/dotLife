@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="dotLife/dotLife.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dotLife/Life.cs">
+    <Files>
+      <File FileName="dotLife/Program.cs" Line="1" Column="1" />
+      <File FileName="dotLife/MainForm.cs" Line="1" Column="1" />
+      <File FileName="dotLife/Cell.cs" Line="1" Column="1" />
+      <File FileName="dotLife/Life.cs" Line="11" Column="23" />
+      <File FileName="dotLife/NUnitTestClass.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
